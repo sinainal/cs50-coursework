@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Because it has lower execution time in sorted file according to sort3.
+
+sort2 uses: Merge sort
+
+How do you know?: This algorithm has the gratest performance according to user time
+
+sort3 uses: Selection sort
+
+How do you know?: It has worst performance in all senerios and it doesn't have execution time difference between sorted and random files.
