@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3 >
+                    <b>
+                        What is the approximate ratio of people to sheep in New Zealand?
+                    </b>
+                </h3>
+                <button id = 1>
+                        <script>
+                         document.getElementById("1").addEventListener("click", function() {
+                            alert("Incorrect");
+                            document.getElementById("1").style.color = "red";
+                            });
+                            ;
+                        </script>
+                        6 people per 1 sheep
+                    </button>
+                    <button id = 2>
+                        <script>
+                         document.getElementById("2").addEventListener("click", function() {
+                            alert("Incorrect");
+                            document.getElementById("2").style.color = "red";
+                            });
+                            ;
+                        </script>
+                        3 people per 1 sheep
+                    </button>
+                    <button id = 3>
+                        <script>
+                         document.getElementById("3").addEventListener("click", function() {
+                            alert("Incorrect");
+                            document.getElementById("3").style.color = "red";
+                            });
+                            ;
+                        </script>
+                        1 people per 1 sheep
+                    </button>
+                    <button id = 4>
+                        <script>
+                         document.getElementById("4").addEventListener("click", function() {
+                            alert("Incorrect");
+                            document.getElementById("4").style.color = "red";
+                            });
+                            ;
+                        </script>
+                        1 people per 3 sheep
+                    </button>
+                    <button id = 5>
+                        <script>
+                         document.getElementById("5").addEventListener("click", function() {
+                            alert("Correct!");
+                            document.getElementById("5").style.color = "green";
+                            });
+                            ;
+                        </script>
+                        1 people per 6 sheep
+                    </button>
+            </div>
+
+            <div class="section">
+
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3><b>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</bb>
+                </h3>
+                <input id = 6></input>
+                <button id = 7>Check Answer</button>
+
+                <script>
+                document.getElementById("7").addEventListener("click", function() {
+                            if(document.getElementById("6").value == "Switzerland")
+                            {
+                                alert("Correct!");
+                                document.getElementById("6").style.color = "green";
+                            }
+
+                            else
+                            {
+                                alert("Incorrect");
+                                document.getElementById("6").style.color = "red";
+                            }
+
+                            });
+                            ;
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
